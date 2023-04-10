@@ -1,0 +1,14 @@
+{
+  "Homepage" : {
+    "HomeIcon" : {
+      "by" : "xpath",
+      "value" : "//div[@id='app']/header/a/img"
+    },
+    "Cards" : {
+      "by" : "xpath",
+      "value" : "//div[@class='card mt-4 top-card']//h5[contains(text(),'%s')]",
+      "dynamic" : true
+    }
+
+  }
+}

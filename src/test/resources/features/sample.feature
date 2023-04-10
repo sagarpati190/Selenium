@@ -1,6 +1,6 @@
 Feature: Verify Demo QA Website
 
-  Scenario: Explore all the elements avaialble on demoQA
+  Scenario: Explore all the elements available on demoQA
 
     Given User is on homepage
     When User selects "Elements" options
